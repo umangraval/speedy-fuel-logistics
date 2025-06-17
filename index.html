@@ -8,16 +8,40 @@
       body {
         margin: 0;
         padding: 0;
-        text-align: center;
         background-color: #f4f4f4;
+        font-family: sans-serif;
+      }
+      .banner {
+        background-color: #0e4a7b; /* Approximated blue from your image */
+        color: white;
+        padding: 15px 20px;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        text-align: center;
+      }
+      .banner a {
+        background-color: white;
+        color: #0e4a7b;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 15px;
       }
       img {
         max-width: 100%;
         height: auto;
+        display: block;
+        margin: auto;
       }
     </style>
   </head>
   <body>
+    <div class="banner">
+      Download our app for easy diesel orders!
+      <a href="downloads/speedy-fuel-logistics.apk" download>Download APK</a>
+    </div>
     <img src="speedy_poster_page_1.png" alt="Speedy Poster" />
   </body>
 </html>
